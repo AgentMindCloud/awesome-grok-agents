@@ -20,6 +20,31 @@ grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/<na
 ```
 
 </div>
+## What's included
+
+**10 Grok-Native Certified templates**
+
+| # | Name | Pattern | Safety |
+|---|------|---------|--------|
+| 1 | `hello-grok` | single-agent | standard |
+| 2 | `reply-engagement-bot` | multi-step | strict |
+| 3 | `trend-to-thread` | multi-step | strict |
+| 4 | `research-swarm` | swarm | standard |
+| 5 | `code-reviewer` | multi-step | strict |
+| 6 | `thread-ghostwriter` | multi-step | strict |
+| 7 | `personal-knowledge` | multi-step | standard |
+| 8 | `scientific-discovery` | swarm | standard |
+| 9 | `voice-agent-x` | multi-step | strict |
+| 10 | `live-event-commentator` | multi-step | strict |
+</div>
+
+**Infrastructure**
+
+- CI workflow with structural validation, security scan, mock tool execution, and YAML lint
+- In-repo validators (no external CLI dependency)
+- `grok_install_stub` — stub runtime for CI
+- SVG poster cards for every template
+- Contributor tooling: PR template, issue templates, docs
 
 ---
 
