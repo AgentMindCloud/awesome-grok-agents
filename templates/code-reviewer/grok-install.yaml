@@ -1,0 +1,14 @@
+spec: grok-install/v2.12
+name: code-reviewer
+description: Reviews GitHub PRs with Grok reasoning. Posts inline comments behind approval.
+entrypoint: .grok/grok-workflow.yaml
+model: grok-4
+runtime:
+  python: ">=3.11"
+env:
+  - XAI_API_KEY
+  - GITHUB_TOKEN
+triggers:
+  - type: github_webhook
+    event: pull_request
+    actions: [opened, synchronize, ready_for_review]

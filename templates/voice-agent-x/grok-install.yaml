@@ -1,0 +1,12 @@
+spec: grok-install/v2.12
+name: voice-agent-x
+description: Speak a post, review the transcript, approve, publish.
+entrypoint: .grok/grok-workflow.yaml
+model: grok-4
+runtime:
+  python: ">=3.11"
+env:
+  - XAI_API_KEY
+  - X_BEARER_TOKEN
+  - X_ACCESS_TOKEN
+  - X_ACCESS_SECRET
