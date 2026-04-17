@@ -1,0 +1,12 @@
+spec: grok-install/v2.12
+name: thread-ghostwriter
+description: Turns a rough idea into a polished X thread, matched to your voice.
+entrypoint: .grok/grok-workflow.yaml
+model: grok-4
+runtime:
+  python: ">=3.11"
+env:
+  - XAI_API_KEY
+  - X_BEARER_TOKEN
+  - X_ACCESS_TOKEN
+  - X_ACCESS_SECRET

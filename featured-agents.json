@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "updated": "2026-04-17",
+  "agents": [
+    {
+      "name": "hello-grok",
+      "description": "The simplest possible Grok agent. Single agent, single tool, under 20 lines of YAML.",
+      "path": "templates/hello-grok",
+      "tags": ["beginner-friendly", "tutorial"],
+      "install_command": "grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/hello-grok",
+      "safety_profile": "standard",
+      "certified": true,
+      "demo_gif": "docs/gifs/hello-grok.gif"
+    },
+    {
+      "name": "reply-engagement-bot",
+      "description": "Watches your X mentions and drafts thoughtful, on-brand replies behind an approval gate.",
+      "path": "templates/reply-engagement-bot",
+      "tags": ["x-native", "beginner-friendly", "approval-gated"],
+      "install_command": "grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/reply-engagement-bot",
+      "safety_profile": "strict",
+      "certified": true,
+      "demo_gif": "docs/gifs/reply-engagement-bot.gif"
+    },
+    {
+      "name": "trend-to-thread",
+      "description": "Monitors X trends and drafts a full thread on topics that match your profile.",
+      "path": "templates/trend-to-thread",
+      "tags": ["x-native", "content-creation", "approval-gated"],
+      "install_command": "grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/trend-to-thread",
+      "safety_profile": "strict",
+      "certified": true,
+      "demo_gif": "docs/gifs/trend-to-thread.gif"
+    },
+    {
+      "name": "research-swarm",
+      "description": "Three-agent swarm: researcher gathers sources, critic challenges them, publisher produces the final brief.",
+      "path": "templates/research-swarm",
+      "tags": ["multi-agent", "research", "advanced"],
+      "install_command": "grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/research-swarm",
+      "safety_profile": "standard",
+      "certified": true,
+      "demo_gif": "docs/gifs/research-swarm.gif"
+    },
+    {
+      "name": "code-reviewer",
+      "description": "Reviews GitHub PRs with Grok reasoning. Posts inline comments behind an approval gate.",
+      "path": "templates/code-reviewer",
+      "tags": ["developer-tools", "github", "approval-gated"],
+      "install_command": "grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/code-reviewer",
+      "safety_profile": "strict",
+      "certified": true,
+      "demo_gif": "docs/gifs/code-reviewer.gif"
+    },
+    {
+      "name": "thread-ghostwriter",
+      "description": "Turns a rough idea into a polished, tone-matched X thread ready for approval.",
+      "path": "templates/thread-ghostwriter",
+      "tags": ["x-native", "content-creation", "approval-gated"],
+      "install_command": "grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/thread-ghostwriter",
+      "safety_profile": "strict",
+      "certified": true,
+      "demo_gif": "docs/gifs/thread-ghostwriter.gif"
+    },
+    {
+      "name": "personal-knowledge",
+      "description": "Builds a persistent, searchable memory of your X history. Ask questions about what you've posted, liked, or been mentioned in.",
+      "path": "templates/personal-knowledge",
+      "tags": ["memory", "rag", "x-native"],
+      "install_command": "grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/personal-knowledge",
+      "safety_profile": "standard",
+      "certified": true,
+      "demo_gif": "docs/gifs/personal-knowledge.gif"
+    },
+    {
+      "name": "scientific-discovery",
+      "description": "Watches arXiv + the X discussion. Produces a daily brief of what's new and what researchers are saying.",
+      "path": "templates/scientific-discovery",
+      "tags": ["research", "x-native", "daily-digest"],
+      "install_command": "grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/scientific-discovery",
+      "safety_profile": "standard",
+      "certified": true,
+      "demo_gif": "docs/gifs/scientific-discovery.gif"
+    },
+    {
+      "name": "voice-agent-x",
+      "description": "Speak a post, review the transcript, approve, publish. Voice-first X workflow with safety gates.",
+      "path": "templates/voice-agent-x",
+      "tags": ["voice", "x-native", "approval-gated", "advanced"],
+      "install_command": "grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/voice-agent-x",
+      "safety_profile": "strict",
+      "certified": true,
+      "demo_gif": "docs/gifs/voice-agent-x.gif"
+    },
+    {
+      "name": "live-event-commentator",
+      "description": "Real-time event commentary on X with strict rate limits and a kill switch.",
+      "path": "templates/live-event-commentator",
+      "tags": ["x-native", "real-time", "advanced", "approval-gated"],
+      "install_command": "grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/live-event-commentator",
+      "safety_profile": "strict",
+      "certified": true,
+      "demo_gif": "docs/gifs/live-event-commentator.gif"
+    }
+  ]
+}

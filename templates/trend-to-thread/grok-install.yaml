@@ -1,0 +1,14 @@
+spec: grok-install/v2.12
+name: trend-to-thread
+description: Monitors X trends and drafts a full thread on topics you care about.
+entrypoint: .grok/grok-workflow.yaml
+model: grok-4
+runtime:
+  python: ">=3.11"
+env:
+  - XAI_API_KEY
+  - X_BEARER_TOKEN
+  - X_ACCESS_TOKEN
+  - X_ACCESS_SECRET
+schedule:
+  interval: 30m

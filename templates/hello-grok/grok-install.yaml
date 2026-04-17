@@ -1,0 +1,9 @@
+spec: grok-install/v2.12
+name: hello-grok
+description: The simplest possible Grok agent. Single agent, single tool.
+entrypoint: .grok/grok-agent.yaml
+model: grok-4
+runtime:
+  python: ">=3.11"
+env:
+  - XAI_API_KEY
