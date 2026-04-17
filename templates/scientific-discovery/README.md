@@ -39,6 +39,8 @@ grok-install schedule      # run daily at the configured cron
 
 ## Safety
 
-- `safety_profile: standard` — this template only reads + emails you.
+- `safety_profile: strict` — email is a real external side effect.
+- `deliver_digest` is gated under `requires_approval`. Approve once with
+  "remember destination" so daily runs don't nag.
 - Max 1 digest per day.
-- No external write permissions beyond outbound SMTP.
+- Kill switch: `DIGEST_DISABLED=1`.

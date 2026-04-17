@@ -32,6 +32,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - run: pip install pyyaml
       - name: Validate featured-agents.json
         run: python scripts/validate_registry.py
 
@@ -47,14 +48,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Install grok-install
-        run: pip install grok-install
+      - name: Install stub runtime + deps
+        run: |
+          pip install pyyaml
+          pip install ./scripts/grok_install_stub
       - name: Validate template
-        run: grok-install validate ${{ matrix.template }}
+        run: python scripts/validate_template.py ${{ matrix.template }}
       - name: Security scan
-        run: grok-install scan ${{ matrix.template }} --fail-on warning
+        run: python scripts/scan_template.py ${{ matrix.template }} --fail-on warning
       - name: Mock run
-        env:
-          XAI_API_KEY: mock-key-for-ci
-          GROK_INSTALL_MODE: mock
-        run: grok-install run ${{ matrix.template }} --mock --timeout 30
+        run: python scripts/mock_run_template.py ${{ matrix.template }}

@@ -31,3 +31,8 @@ workflow:
         takes: "{{ paper_takes }}"
         delivery: "{{ config.delivery }}"
       output: digest
+
+    - id: approve_delivery
+      type: approval
+      target: digest
+      mode: remember_destination

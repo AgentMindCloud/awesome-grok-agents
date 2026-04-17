@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import os
 from typing import TypedDict
 
 from grok_install.runtime import arxiv, delivery, x_client
@@ -56,8 +57,12 @@ def compile_digest(papers: list[PaperSummary], takes: list[dict], date: str) -> 
     return {"date": date, "papers": papers, "takes": takes}
 
 
-def deliver_digest(digest: dict, channel: str, to: str) -> dict:
-    """Deliver the digest over the configured channel."""
+def deliver_digest(approval_token: str, digest: dict, channel: str, to: str) -> dict:
+    """Deliver the digest over the configured channel. Requires approval."""
+    if not approval_token or not approval_token.startswith("appr_"):
+        raise PermissionError("missing or invalid approval token")
+    if os.getenv("DIGEST_DISABLED") == "1":
+        raise RuntimeError("kill switch engaged")
     if channel not in ("email", "slack", "stdout"):
         raise ValueError(f"unsupported channel: {channel}")
     return delivery.send(channel=channel, to=to, payload=digest)
