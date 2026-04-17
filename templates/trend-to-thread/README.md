@@ -3,7 +3,7 @@
 Watches X trends inside a topic allowlist, scores each one, and drafts a
 6-tweet thread on the winner for your approval.
 
-![trend-to-thread demo](../../docs/gifs/trend-to-thread.gif)
+![trend-to-thread poster](../../docs/posters/trend-to-thread.svg)
 
 ## What it does
 

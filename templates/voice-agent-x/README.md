@@ -3,7 +3,7 @@
 Speak a thought. See it transcribed and polished into a clean X post.
 Approve. Publish. The whole loop in under a minute.
 
-![voice-agent-x demo](../../docs/gifs/voice-agent-x.gif)
+![voice-agent-x poster](../../docs/posters/voice-agent-x.svg)
 
 ## What it does
 

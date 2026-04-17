@@ -4,7 +4,7 @@ A three-agent swarm that answers hard questions. The researcher gathers
 sources, the critic challenges them, and the publisher produces the final
 brief — with nothing the critic rejected.
 
-![research-swarm demo](../../docs/gifs/research-swarm.gif)
+![research-swarm poster](../../docs/posters/research-swarm.svg)
 
 ## What it does
 

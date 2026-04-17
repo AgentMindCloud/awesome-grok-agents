@@ -3,7 +3,7 @@
 You give it a rough idea. It reads your recent X posts, learns your voice,
 and drafts a polished thread that sounds like you wrote it.
 
-![thread-ghostwriter demo](../../docs/gifs/thread-ghostwriter.gif)
+![thread-ghostwriter poster](../../docs/posters/thread-ghostwriter.svg)
 
 ## What it does
 

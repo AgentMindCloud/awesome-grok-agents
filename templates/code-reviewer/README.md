@@ -3,7 +3,7 @@
 Reads a GitHub PR, reviews it like a senior engineer, and posts inline
 comments plus a summary — behind a human approval gate.
 
-![code-reviewer demo](../../docs/gifs/code-reviewer.gif)
+![code-reviewer poster](../../docs/posters/code-reviewer.svg)
 
 ## What it does
 

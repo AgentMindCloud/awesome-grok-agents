@@ -4,7 +4,7 @@ Covers a live event on X in real time — without the usual "engagement bot"
 cringe. Picky about what counts as a moment, strict about pacing, kill
 switch built in.
 
-![live-event-commentator demo](../../docs/gifs/live-event-commentator.gif)
+![live-event-commentator poster](../../docs/posters/live-event-commentator.svg)
 
 ## What it does
 

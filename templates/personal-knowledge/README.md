@@ -4,7 +4,7 @@ A persistent, searchable memory of your X history. Ask questions about
 what you've posted, liked, or been mentioned in — and get answers backed
 by links to the original posts.
 
-![personal-knowledge demo](../../docs/gifs/personal-knowledge.gif)
+![personal-knowledge poster](../../docs/posters/personal-knowledge.svg)
 
 ## What it does
 

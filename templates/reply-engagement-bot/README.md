@@ -3,7 +3,7 @@
 Watches your X mentions, classifies which are worth replying to, drafts a
 reply in your voice, and queues each one for human approval before posting.
 
-![reply-engagement-bot demo](../../docs/gifs/reply-engagement-bot.gif)
+![reply-engagement-bot poster](../../docs/posters/reply-engagement-bot.svg)
 
 ## What it does
 

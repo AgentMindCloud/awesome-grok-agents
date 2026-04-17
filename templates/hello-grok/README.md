@@ -3,7 +3,7 @@
 The simplest possible Grok agent. One agent, one tool, under 20 lines of
 YAML. Use this as the starting point for your own template.
 
-![hello-grok demo](../../docs/gifs/hello-grok.gif)
+![hello-grok poster](../../docs/posters/hello-grok.svg)
 
 ## What it does
 

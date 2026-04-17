@@ -18,7 +18,7 @@ REQUIRED_FIELDS = {
     "install_command",
     "safety_profile",
     "certified",
-    "demo_gif",
+    "poster",
 }
 VALID_SAFETY = {"strict", "standard", "permissive"}
 
@@ -55,6 +55,10 @@ def main() -> None:
                 fail(f"{name}: missing {required}")
         if not (template_dir / ".grok").is_dir():
             fail(f"{name}: missing .grok/ directory")
+
+        poster = ROOT / agent["poster"]
+        if not poster.is_file():
+            fail(f"{name}: poster {agent['poster']} does not exist")
 
     listed = {a["name"] for a in data["agents"]}
     on_disk = {p.name for p in TEMPLATES.iterdir() if p.is_dir()}

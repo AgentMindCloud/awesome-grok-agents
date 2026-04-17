@@ -3,7 +3,7 @@
 Daily brief of the newest arXiv papers in your areas of interest, paired
 with what real researchers are saying about them on X.
 
-![scientific-discovery demo](../../docs/gifs/scientific-discovery.gif)
+![scientific-discovery poster](../../docs/posters/scientific-discovery.svg)
 
 ## What it does
 
