@@ -2,7 +2,7 @@
 
 # awesome-grok-agents
 
-**10 production-ready Grok agents. One command to install.**
+**11 production-ready Grok agents. One command to install.**
 
 A curated gallery of `grok-install`-compatible agent templates built on xAI's Grok
 models. Every template is end-to-end runnable, permission-scoped, safety-profiled,
@@ -10,7 +10,7 @@ and ships with a working demo.
 
 [![CI](https://github.com/agentmindcloud/awesome-grok-agents/actions/workflows/validate-templates.yml/badge.svg)](https://github.com/agentmindcloud/awesome-grok-agents/actions/workflows/validate-templates.yml)
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
-[![Templates](https://img.shields.io/badge/templates-10-7c5cff)](featured-agents.json)
+[![Templates](https://img.shields.io/badge/templates-11-7c5cff)](featured-agents.json)
 [![Grok-Native Certified](https://img.shields.io/badge/Grok--Native-Certified-22c55e)](#grok-native-certified)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-f59e0b)](CONTRIBUTING.md)
 
@@ -22,7 +22,7 @@ grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/<na
 </div>
 ## What's included
 
-**10 Grok-Native Certified templates**
+**11 Grok-Native Certified templates**
 
 | # | Name | Pattern | Safety |
 |---|------|---------|--------|
@@ -36,6 +36,7 @@ grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/<na
 | 8 | `scientific-discovery` | swarm | standard |
 | 9 | `voice-agent-x` | multi-step | strict |
 | 10 | `live-event-commentator` | multi-step | strict |
+| 11 | `viral-thread-architect` _(v2.0 spec)_ | swarm + voice + image | strict |
 </div>
 
 **Infrastructure**
@@ -102,6 +103,9 @@ anything below the bar.
 <tr><td>
 <a href="templates/live-event-commentator"><img src="docs/posters/live-event-commentator.svg" alt="live-event-commentator"></a>
 </td></tr>
+<tr><td>
+<a href="agents/viral-thread-architect"><img src="docs/posters/viral-thread-architect.svg" alt="viral-thread-architect"></a>
+</td></tr>
 </table>
 
 <details>
@@ -119,6 +123,7 @@ anything below the bar.
 | 8 | [scientific-discovery](templates/scientific-discovery) | swarm | standard | Daily arXiv + X discussion brief. |
 | 9 | [voice-agent-x](templates/voice-agent-x) | multi-step | strict | Speak a post, review, approve, publish. |
 | 10 | [live-event-commentator](templates/live-event-commentator) | multi-step | strict | Real-time event commentary on X. |
+| 11 | [viral-thread-architect](agents/viral-thread-architect) | swarm + voice + image | strict | 3-agent swarm: any idea → polished X thread with images + voice (v2.0 spec). |
 
 </details>
 

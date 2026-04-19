@@ -1,7 +1,25 @@
 {
-  "version": "1.0",
-  "updated": "2026-04-17",
+  "version": "1.1",
+  "updated": "2026-04-19",
   "agents": [
+    {
+      "name": "viral-thread-architect",
+      "description": "Multi-agent swarm that turns any idea into a polished X thread with images, voice narration, and perfect formatting. First v2.0 spec template.",
+      "path": "agents/viral-thread-architect",
+      "tags": [
+        "multi-agent",
+        "thread-generation",
+        "voice",
+        "image-gen",
+        "x-native",
+        "approval-gated",
+        "v2.0-spec"
+      ],
+      "install_command": "grok-install install github.com/agentmindcloud/awesome-grok-agents/agents/viral-thread-architect",
+      "safety_profile": "strict",
+      "certified": true,
+      "poster": "docs/posters/viral-thread-architect.svg"
+    },
     {
       "name": "hello-grok",
       "description": "The simplest possible Grok agent. Single agent, single tool, under 20 lines of YAML.",
