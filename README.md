@@ -53,6 +53,7 @@ grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/<na
 - [Why this exists](#why-this-exists)
 - [Gallery](#gallery)
 - [Quick start](#quick-start)
+- [Repository layout](#repository-layout)
 - [Safety model](#safety-model)
 - [Grok-Native Certified](#grok-native-certified)
 - [Contributing](#contributing)
@@ -139,6 +140,33 @@ grok-install run          # one-shot
 grok-install schedule     # background daemon where applicable
 ```
 
+## Repository layout
+
+`templates/<slug>/` is the **canonical** location for every agent in this
+repository. The CLI (`grok-install install …/templates/<slug>`), the CI
+validators, the registry (`featured-agents.json`), and the poster generator
+all resolve agents relative to that directory. Do not introduce a parallel
+`agents/`, `examples/`, or `gallery/` tree — the gallery view in this README
+and the JSON registry are the only two indexes.
+
+Every template directory contains exactly the files the validator requires:
+
+```
+templates/<slug>/
+├── grok-install.yaml          # root config (v2.12 spec)
+├── README.md                  # what it does, install, configure, run, demo
+├── .env.example               # required secrets — never real values
+├── .grok/
+│   ├── grok-agent.yaml        # agent definitions
+│   ├── grok-workflow.yaml     # multi-step / swarm flows (single-agent omits)
+│   ├── grok-security.yaml     # safety_profile + permissions
+│   └── grok-prompts.yaml      # system prompts keyed by prompt_ref
+└── tools/custom_tools.py      # plain Python functions exposed as tools
+```
+
+Full field-by-field reference: [docs/template-anatomy.md](docs/template-anatomy.md).
+Registry schema: [SCHEMA.md](SCHEMA.md).
+
 ## Safety model
 
 Every template declares a `safety_profile`, an explicit permission list, and
@@ -188,7 +216,10 @@ Found a bug in an existing template? Open a
 - **Report a security issue:** see [SECURITY.md](SECURITY.md).
 - **Code of conduct:** [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 - **Release history:** [CHANGELOG.md](CHANGELOG.md).
+- **Disclaimer & trademarks:** [DISCLAIMER.md](DISCLAIMER.md).
 
 ## License
 
-Apache 2.0. See [LICENSE](LICENSE).
+Apache 2.0. See [LICENSE](LICENSE). This repository is community-maintained
+and not affiliated with or endorsed by xAI — see
+[DISCLAIMER.md](DISCLAIMER.md) for details.

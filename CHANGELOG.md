@@ -7,6 +7,23 @@ Versions follow [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+### Added
+
+- `SCHEMA.md` documenting the `featured-agents.json` registry schema
+  (version `1.0`), including invariants enforced by `validate_registry.py`.
+- `DISCLAIMER.md` clarifying that the project is community-maintained, not
+  affiliated with xAI, and covering warranty, trademark, and
+  operator-responsibility language.
+- `.github/FUNDING.yml` enabling the GitHub Sponsors button.
+- README "Repository layout" section declaring `templates/<slug>/` as the
+  canonical agent location and listing the seven required files.
+
+### Changed
+
+- README "Community" and "License" sections now link to `DISCLAIMER.md`.
+- README table of contents updated to include the new "Repository layout"
+  section.
+
 ## [0.1.0] — 2026-04-17
 
 ### Added
