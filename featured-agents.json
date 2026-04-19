@@ -1,165 +1,309 @@
 {
-  "version": "1.1",
-  "updated": "2026-04-19",
+  "version": "1.0",
+  "updated": "2026-04-20",
   "agents": [
     {
-      "name": "viral-thread-architect",
-      "description": "Multi-agent swarm that turns any idea into a polished X thread with images, voice narration, and perfect formatting. First v2.0 spec template.",
-      "path": "agents/viral-thread-architect",
+      "id": "viral-thread-architect",
+      "name": "Viral Thread Architect",
+      "tagline": "Turn any idea into a fire X thread in seconds — with images, voice version, and perfect formatting.",
+      "category": "thread-generation",
       "tags": [
         "multi-agent",
-        "thread-generation",
-        "voice",
+        "voice-ready",
         "image-gen",
+        "v2.0-spec",
         "x-native",
-        "approval-gated",
-        "v2.0-spec"
+        "approval-gated"
       ],
+      "github": "AgentMindCloud/awesome-grok-agents/tree/main/agents/viral-thread-architect",
+      "install_link": "https://github.com/AgentMindCloud/awesome-grok-agents/tree/main/agents/viral-thread-architect",
       "install_command": "grok-install install github.com/agentmindcloud/awesome-grok-agents/agents/viral-thread-architect",
+      "demo_url": null,
+      "safety_score": 100,
       "safety_profile": "strict",
-      "certified": true,
-      "poster": "docs/posters/viral-thread-architect.svg",
-      "demo_url": null
+      "certifications": [
+        "grok-native",
+        "safety-max",
+        "voice-ready",
+        "swarm-ready"
+      ],
+      "created_at": "2026-04-19",
+      "creator": "AgentMindCloud",
+      "path": "agents/viral-thread-architect",
+      "poster": "docs/posters/viral-thread-architect.svg"
     },
     {
-      "name": "hello-grok",
-      "description": "The simplest possible Grok agent. Single agent, single tool, under 20 lines of YAML.",
-      "path": "templates/hello-grok",
+      "id": "voice-companion",
+      "name": "Voice Companion",
+      "tagline": "Your personal Grok voice agent — always on, context-aware, ready for voice conversations on X.",
+      "category": "voice-agent",
+      "tags": [
+        "voice",
+        "real-time",
+        "multi-agent",
+        "v2.0-spec",
+        "x-native",
+        "spaces"
+      ],
+      "github": "AgentMindCloud/awesome-grok-agents/tree/main/agents/voice-companion",
+      "install_link": "https://github.com/AgentMindCloud/awesome-grok-agents/tree/main/agents/voice-companion",
+      "install_command": "grok-install install github.com/agentmindcloud/awesome-grok-agents/agents/voice-companion",
+      "demo_url": null,
+      "safety_score": 100,
+      "safety_profile": "standard",
+      "certifications": [
+        "grok-native",
+        "safety-max",
+        "voice-ready",
+        "swarm-ready"
+      ],
+      "created_at": "2026-04-20",
+      "creator": "AgentMindCloud",
+      "path": "agents/voice-companion",
+      "poster": "docs/posters/voice-companion.svg"
+    },
+    {
+      "id": "hello-grok",
+      "name": "Hello Grok",
+      "tagline": "The simplest possible Grok agent. Single agent, single tool, under 20 lines of YAML.",
+      "category": "tutorial",
       "tags": [
         "beginner-friendly",
         "tutorial"
       ],
+      "github": "AgentMindCloud/awesome-grok-agents/tree/main/templates/hello-grok",
+      "install_link": "https://github.com/AgentMindCloud/awesome-grok-agents/tree/main/templates/hello-grok",
       "install_command": "grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/hello-grok",
+      "demo_url": null,
+      "safety_score": 100,
       "safety_profile": "standard",
-      "certified": true,
+      "certifications": [
+        "grok-native"
+      ],
+      "created_at": "2026-04-17",
+      "creator": "AgentMindCloud",
+      "path": "templates/hello-grok",
       "poster": "docs/posters/hello-grok.svg"
     },
     {
-      "name": "reply-engagement-bot",
-      "description": "Watches your X mentions and drafts thoughtful, on-brand replies behind an approval gate.",
-      "path": "templates/reply-engagement-bot",
+      "id": "reply-engagement-bot",
+      "name": "Reply Engagement Bot",
+      "tagline": "Watches your X mentions and drafts thoughtful, on-brand replies behind an approval gate.",
+      "category": "engagement",
       "tags": [
         "x-native",
         "beginner-friendly",
         "approval-gated"
       ],
+      "github": "AgentMindCloud/awesome-grok-agents/tree/main/templates/reply-engagement-bot",
+      "install_link": "https://github.com/AgentMindCloud/awesome-grok-agents/tree/main/templates/reply-engagement-bot",
       "install_command": "grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/reply-engagement-bot",
+      "demo_url": null,
+      "safety_score": 100,
       "safety_profile": "strict",
-      "certified": true,
+      "certifications": [
+        "grok-native"
+      ],
+      "created_at": "2026-04-17",
+      "creator": "AgentMindCloud",
+      "path": "templates/reply-engagement-bot",
       "poster": "docs/posters/reply-engagement-bot.svg"
     },
     {
-      "name": "trend-to-thread",
-      "description": "Monitors X trends and drafts a full thread on topics that match your profile.",
-      "path": "templates/trend-to-thread",
+      "id": "trend-to-thread",
+      "name": "Trend to Thread",
+      "tagline": "Monitors X trends and drafts a full thread on topics that match your profile.",
+      "category": "thread-generation",
       "tags": [
         "x-native",
         "content-creation",
         "approval-gated"
       ],
+      "github": "AgentMindCloud/awesome-grok-agents/tree/main/templates/trend-to-thread",
+      "install_link": "https://github.com/AgentMindCloud/awesome-grok-agents/tree/main/templates/trend-to-thread",
       "install_command": "grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/trend-to-thread",
+      "demo_url": null,
+      "safety_score": 100,
       "safety_profile": "strict",
-      "certified": true,
+      "certifications": [
+        "grok-native"
+      ],
+      "created_at": "2026-04-17",
+      "creator": "AgentMindCloud",
+      "path": "templates/trend-to-thread",
       "poster": "docs/posters/trend-to-thread.svg"
     },
     {
-      "name": "research-swarm",
-      "description": "Three-agent swarm: researcher gathers sources, critic challenges them, publisher produces the final brief.",
-      "path": "templates/research-swarm",
+      "id": "research-swarm",
+      "name": "Research Swarm",
+      "tagline": "Three-agent swarm: researcher gathers sources, critic challenges them, publisher produces the final brief.",
+      "category": "research",
       "tags": [
         "multi-agent",
         "research",
         "advanced"
       ],
+      "github": "AgentMindCloud/awesome-grok-agents/tree/main/templates/research-swarm",
+      "install_link": "https://github.com/AgentMindCloud/awesome-grok-agents/tree/main/templates/research-swarm",
       "install_command": "grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/research-swarm",
+      "demo_url": null,
+      "safety_score": 100,
       "safety_profile": "standard",
-      "certified": true,
+      "certifications": [
+        "grok-native",
+        "swarm-ready"
+      ],
+      "created_at": "2026-04-17",
+      "creator": "AgentMindCloud",
+      "path": "templates/research-swarm",
       "poster": "docs/posters/research-swarm.svg"
     },
     {
-      "name": "code-reviewer",
-      "description": "Reviews GitHub PRs with Grok reasoning. Posts inline comments behind an approval gate.",
-      "path": "templates/code-reviewer",
+      "id": "code-reviewer",
+      "name": "Code Reviewer",
+      "tagline": "Reviews GitHub PRs with Grok reasoning. Posts inline comments behind an approval gate.",
+      "category": "developer-tools",
       "tags": [
         "developer-tools",
         "github",
         "approval-gated"
       ],
+      "github": "AgentMindCloud/awesome-grok-agents/tree/main/templates/code-reviewer",
+      "install_link": "https://github.com/AgentMindCloud/awesome-grok-agents/tree/main/templates/code-reviewer",
       "install_command": "grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/code-reviewer",
+      "demo_url": null,
+      "safety_score": 100,
       "safety_profile": "strict",
-      "certified": true,
+      "certifications": [
+        "grok-native"
+      ],
+      "created_at": "2026-04-17",
+      "creator": "AgentMindCloud",
+      "path": "templates/code-reviewer",
       "poster": "docs/posters/code-reviewer.svg"
     },
     {
-      "name": "thread-ghostwriter",
-      "description": "Turns a rough idea into a polished, tone-matched X thread ready for approval.",
-      "path": "templates/thread-ghostwriter",
+      "id": "thread-ghostwriter",
+      "name": "Thread Ghostwriter",
+      "tagline": "Turns a rough idea into a polished, tone-matched X thread ready for approval.",
+      "category": "content-creation",
       "tags": [
         "x-native",
         "content-creation",
         "approval-gated"
       ],
+      "github": "AgentMindCloud/awesome-grok-agents/tree/main/templates/thread-ghostwriter",
+      "install_link": "https://github.com/AgentMindCloud/awesome-grok-agents/tree/main/templates/thread-ghostwriter",
       "install_command": "grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/thread-ghostwriter",
+      "demo_url": null,
+      "safety_score": 100,
       "safety_profile": "strict",
-      "certified": true,
+      "certifications": [
+        "grok-native"
+      ],
+      "created_at": "2026-04-17",
+      "creator": "AgentMindCloud",
+      "path": "templates/thread-ghostwriter",
       "poster": "docs/posters/thread-ghostwriter.svg"
     },
     {
-      "name": "personal-knowledge",
-      "description": "Builds a persistent, searchable memory of your X history. Ask questions about what you've posted, liked, or been mentioned in.",
-      "path": "templates/personal-knowledge",
+      "id": "personal-knowledge",
+      "name": "Personal Knowledge",
+      "tagline": "Builds a persistent, searchable memory of your X history. Ask questions about what you've posted, liked, or been mentioned in.",
+      "category": "memory",
       "tags": [
         "memory",
         "rag",
         "x-native"
       ],
+      "github": "AgentMindCloud/awesome-grok-agents/tree/main/templates/personal-knowledge",
+      "install_link": "https://github.com/AgentMindCloud/awesome-grok-agents/tree/main/templates/personal-knowledge",
       "install_command": "grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/personal-knowledge",
+      "demo_url": null,
+      "safety_score": 100,
       "safety_profile": "standard",
-      "certified": true,
+      "certifications": [
+        "grok-native"
+      ],
+      "created_at": "2026-04-17",
+      "creator": "AgentMindCloud",
+      "path": "templates/personal-knowledge",
       "poster": "docs/posters/personal-knowledge.svg"
     },
     {
-      "name": "scientific-discovery",
-      "description": "Watches arXiv + the X discussion. Produces a daily brief of what's new and what researchers are saying.",
-      "path": "templates/scientific-discovery",
+      "id": "scientific-discovery",
+      "name": "Scientific Discovery",
+      "tagline": "Watches arXiv + the X discussion. Produces a daily brief of what's new and what researchers are saying.",
+      "category": "research",
       "tags": [
         "research",
         "x-native",
         "daily-digest"
       ],
+      "github": "AgentMindCloud/awesome-grok-agents/tree/main/templates/scientific-discovery",
+      "install_link": "https://github.com/AgentMindCloud/awesome-grok-agents/tree/main/templates/scientific-discovery",
       "install_command": "grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/scientific-discovery",
+      "demo_url": null,
+      "safety_score": 100,
       "safety_profile": "standard",
-      "certified": true,
+      "certifications": [
+        "grok-native",
+        "swarm-ready"
+      ],
+      "created_at": "2026-04-17",
+      "creator": "AgentMindCloud",
+      "path": "templates/scientific-discovery",
       "poster": "docs/posters/scientific-discovery.svg"
     },
     {
-      "name": "voice-agent-x",
-      "description": "Speak a post, review the transcript, approve, publish. Voice-first X workflow with safety gates.",
-      "path": "templates/voice-agent-x",
+      "id": "voice-agent-x",
+      "name": "Voice Agent X",
+      "tagline": "Speak a post, review the transcript, approve, publish. Voice-first X workflow with safety gates.",
+      "category": "voice-agent",
       "tags": [
         "voice",
         "x-native",
         "approval-gated",
         "advanced"
       ],
+      "github": "AgentMindCloud/awesome-grok-agents/tree/main/templates/voice-agent-x",
+      "install_link": "https://github.com/AgentMindCloud/awesome-grok-agents/tree/main/templates/voice-agent-x",
       "install_command": "grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/voice-agent-x",
+      "demo_url": null,
+      "safety_score": 100,
       "safety_profile": "strict",
-      "certified": true,
+      "certifications": [
+        "grok-native",
+        "voice-ready"
+      ],
+      "created_at": "2026-04-17",
+      "creator": "AgentMindCloud",
+      "path": "templates/voice-agent-x",
       "poster": "docs/posters/voice-agent-x.svg"
     },
     {
-      "name": "live-event-commentator",
-      "description": "Real-time event commentary on X with strict rate limits and a kill switch.",
-      "path": "templates/live-event-commentator",
+      "id": "live-event-commentator",
+      "name": "Live Event Commentator",
+      "tagline": "Real-time event commentary on X with strict rate limits and a kill switch.",
+      "category": "real-time",
       "tags": [
         "x-native",
         "real-time",
         "advanced",
         "approval-gated"
       ],
+      "github": "AgentMindCloud/awesome-grok-agents/tree/main/templates/live-event-commentator",
+      "install_link": "https://github.com/AgentMindCloud/awesome-grok-agents/tree/main/templates/live-event-commentator",
       "install_command": "grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/live-event-commentator",
+      "demo_url": null,
+      "safety_score": 100,
       "safety_profile": "strict",
-      "certified": true,
+      "certifications": [
+        "grok-native"
+      ],
+      "created_at": "2026-04-17",
+      "creator": "AgentMindCloud",
+      "path": "templates/live-event-commentator",
       "poster": "docs/posters/live-event-commentator.svg"
     }
   ]

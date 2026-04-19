@@ -23,7 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: pipx install yamllint
-      - run: yamllint -c .yamllint.yml templates/ featured-agents.json .github/
+      - run: yamllint -c .yamllint.yml templates/ agents/ featured-agents.json .github/
 
   registry:
     runs-on: ubuntu-latest

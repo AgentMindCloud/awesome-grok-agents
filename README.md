@@ -2,7 +2,7 @@
 
 # awesome-grok-agents
 
-**11 production-ready Grok agents. One command to install.**
+**12 production-ready Grok agents. One command to install.**
 
 A curated gallery of `grok-install`-compatible agent templates built on xAI's Grok
 models. Every template is end-to-end runnable, permission-scoped, safety-profiled,
@@ -10,7 +10,7 @@ and ships with a working demo.
 
 [![CI](https://github.com/agentmindcloud/awesome-grok-agents/actions/workflows/validate-templates.yml/badge.svg)](https://github.com/agentmindcloud/awesome-grok-agents/actions/workflows/validate-templates.yml)
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
-[![Templates](https://img.shields.io/badge/templates-11-7c5cff)](featured-agents.json)
+[![Templates](https://img.shields.io/badge/templates-12-7c5cff)](featured-agents.json)
 [![Grok-Native Certified](https://img.shields.io/badge/Grok--Native-Certified-22c55e)](#grok-native-certified)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-f59e0b)](CONTRIBUTING.md)
 
@@ -20,24 +20,60 @@ grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/<na
 ```
 
 </div>
+
+## Killer agents _(v2.0 spec)_
+
+Two flagship agents authored on the new `grok-install/v2.0` YAML spec. Each is a complete `.grok/` project with explicit `grok-swarm.yaml`, `grok-voice.yaml`, `safety.yaml`, and full demo pack. Certified `grok-native`, `safety-max`, `voice-ready`, `swarm-ready`.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [Viral Thread Architect](agents/viral-thread-architect)
+
+Turn any idea into a fire X thread in seconds — with images, voice version, and perfect formatting.
+
+- 3-agent swarm: coordinator + Lucas (creative) + Benjamin (logic)
+- Image generation, voice narration, 8–12 posts
+- `safety_profile: strict`, human approval on every post
+
+[Install on X](https://x.com/intent/post?text=%40grok%20install%20github.com%2Fagentmindcloud%2Fawesome-grok-agents%2Fagents%2Fviral-thread-architect) · [Example thread](agents/viral-thread-architect/demo/EXAMPLE_THREAD.md) · [Safety 100/100](agents/viral-thread-architect/SAFETY-REPORT.md)
+
+</td>
+<td width="50%" valign="top">
+
+### [Voice Companion](agents/voice-companion)
+
+Your personal Grok voice agent — always on, context-aware, ready for voice conversations on X.
+
+- 2-agent swarm: coordinator + memory-keeper
+- Real-time STT + TTS via `grok-voice-2`, emotion-aware, speaker diarization, barge-in
+- `safety_profile: standard`, graceful handoff to text, kill switch
+
+[Install on X](https://x.com/intent/post?text=%40grok%20install%20github.com%2Fagentmindcloud%2Fawesome-grok-agents%2Fagents%2Fvoice-companion) · [Example transcript](agents/voice-companion/demo/EXAMPLE_TRANSCRIPT.md) · [Safety 100/100](agents/voice-companion/SAFETY-REPORT.md)
+
+</td>
+</tr>
+</table>
+
 ## What's included
 
-**11 Grok-Native Certified templates**
+**12 Grok-Native Certified agents**
 
 | # | Name | Pattern | Safety |
 |---|------|---------|--------|
-| 1 | `hello-grok` | single-agent | standard |
-| 2 | `reply-engagement-bot` | multi-step | strict |
-| 3 | `trend-to-thread` | multi-step | strict |
-| 4 | `research-swarm` | swarm | standard |
-| 5 | `code-reviewer` | multi-step | strict |
-| 6 | `thread-ghostwriter` | multi-step | strict |
-| 7 | `personal-knowledge` | multi-step | standard |
-| 8 | `scientific-discovery` | swarm | standard |
-| 9 | `voice-agent-x` | multi-step | strict |
-| 10 | `live-event-commentator` | multi-step | strict |
-| 11 | `viral-thread-architect` _(v2.0 spec)_ | swarm + voice + image | strict |
-</div>
+| 1 | `viral-thread-architect` _(v2.0)_ | swarm + voice + image | strict |
+| 2 | `voice-companion` _(v2.0)_ | swarm + real-time voice | standard |
+| 3 | `hello-grok` | single-agent | standard |
+| 4 | `reply-engagement-bot` | multi-step | strict |
+| 5 | `trend-to-thread` | multi-step | strict |
+| 6 | `research-swarm` | swarm | standard |
+| 7 | `code-reviewer` | multi-step | strict |
+| 8 | `thread-ghostwriter` | multi-step | strict |
+| 9 | `personal-knowledge` | multi-step | standard |
+| 10 | `scientific-discovery` | swarm | standard |
+| 11 | `voice-agent-x` | multi-step | strict |
+| 12 | `live-event-commentator` | multi-step | strict |
 
 **Infrastructure**
 
@@ -101,10 +137,13 @@ anything below the bar.
 <a href="templates/voice-agent-x"><img src="docs/posters/voice-agent-x.svg" alt="voice-agent-x"></a>
 </td></tr>
 <tr><td>
-<a href="templates/live-event-commentator"><img src="docs/posters/live-event-commentator.svg" alt="live-event-commentator"></a>
+<a href="agents/viral-thread-architect"><img src="docs/posters/viral-thread-architect.svg" alt="viral-thread-architect"></a>
 </td></tr>
 <tr><td>
-<a href="agents/viral-thread-architect"><img src="docs/posters/viral-thread-architect.svg" alt="viral-thread-architect"></a>
+<a href="agents/voice-companion"><img src="docs/posters/voice-companion.svg" alt="voice-companion"></a>
+</td></tr>
+<tr><td>
+<a href="templates/live-event-commentator"><img src="docs/posters/live-event-commentator.svg" alt="live-event-commentator"></a>
 </td></tr>
 </table>
 
@@ -124,6 +163,7 @@ anything below the bar.
 | 9 | [voice-agent-x](templates/voice-agent-x) | multi-step | strict | Speak a post, review, approve, publish. |
 | 10 | [live-event-commentator](templates/live-event-commentator) | multi-step | strict | Real-time event commentary on X. |
 | 11 | [viral-thread-architect](agents/viral-thread-architect) | swarm + voice + image | strict | 3-agent swarm: any idea → polished X thread with images + voice (v2.0 spec). |
+| 12 | [voice-companion](agents/voice-companion) | swarm + real-time voice | standard | 2-agent voice-first swarm with session memory, emotion-aware TTS, graceful text handoff (v2.0 spec). |
 
 </details>
 
