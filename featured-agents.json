@@ -18,7 +18,8 @@
       "install_command": "grok-install install github.com/agentmindcloud/awesome-grok-agents/agents/viral-thread-architect",
       "safety_profile": "strict",
       "certified": true,
-      "poster": "docs/posters/viral-thread-architect.svg"
+      "poster": "docs/posters/viral-thread-architect.svg",
+      "demo_url": null
     },
     {
       "name": "hello-grok",
