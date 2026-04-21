@@ -1,7 +1,7 @@
 spec: grok-install/v2.14
 version: "2.14"
 name: hello-grok
-description: The simplest possible Grok agent. Single agent, single tool.
+description: The simplest possible Grok agent. Single agent, single tool. Shows beautiful image on X automatically.
 entrypoint: .grok/grok-agent.yaml
 model: grok-4
 runtime:
@@ -11,7 +11,8 @@ env:
 visuals:
   accent_color: "#7c5cff"
   preview_card:
-    style: minimal
+    style: rich          # changed from "minimal" → "rich" for bigger image
     title: hello-grok
-    subtitle: Your first Grok agent in 20 lines of YAML.
+    subtitle: Your first Grok agent — now with image on X 🔥
     poster: docs/posters/hello-grok.svg
+    image_fallback: docs/posters/hello-grok.png   # fallback if X has issues with SVG
