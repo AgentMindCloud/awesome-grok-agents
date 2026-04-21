@@ -7,6 +7,48 @@ Versions follow [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [1.0.0] — 2026-04-21
+
+### 10 certified templates milestone
+
+All 10 templates in the gallery carry the **Grok-Native Certified**
+badge and pass structural validation, security scanning, mock
+execution, and registry checks on every PR.
+
+### Added
+
+- **v2.14 visuals** on 5 hero templates, each with a companion
+  design-rationale doc under `docs/visuals/`:
+  - `hello-grok` — minimal (accent + flat preview card)
+  - `trend-to-thread` — futuristic (gradient, pulse animation,
+    `auto_generate.demo_media: true`)
+  - `voice-agent-x` — futuristic + `haptics` + `accessibility`
+    (WCAG AAA, captions, reduced-motion fallback)
+  - `thread-ghostwriter` — premium (serif headings, gold trim)
+  - `code-reviewer` — minimal developer (monospace, terminal card)
+- `schemas/featured-agents.schema.json` — JSON Schema (Draft 2020-12)
+  for the registry, with `has_visuals` and `accent_color` fields.
+- `.github/workflows/release.yml` — auto-publishes a GitHub Release
+  whenever a `v*` tag is pushed; body is pulled from this CHANGELOG.
+- `docs/submitting-your-own.md` — new sections on optional v2.14
+  visuals and a first-good-PR rubric.
+
+### Changed
+
+- `validate-templates.yml` now runs three additional jobs in CI:
+  - `schema` (`ajv-cli` validates `featured-agents.json`)
+  - `spec-version` (asserts every template declares
+    `grok-install/v2.12`, `v2.13`, or `v2.14`)
+  - `links` (`lychee-action` checks every template README)
+- `featured-agents.json` — 5 hero entries now carry `has_visuals: true`
+  and `accent_color: "#..."`; the other 5 carry `has_visuals: false`.
+  Schema passes on both shapes.
+
+### Migration notes
+
+Templates that already shipped in 0.1.0 stay at `grok-install/v2.12`
+and continue to pass. Adding visuals is opt-in and strictly additive.
+
 ## [0.1.0] — 2026-04-17
 
 ### Added
@@ -40,5 +82,6 @@ All 10 templates are **Grok-Native Certified** (see README for criteria).
 - Contributor tooling: PR template, issue templates, `CONTRIBUTING.md`,
   `docs/submitting-your-own.md`, `docs/template-anatomy.md`.
 
+[1.0.0]: https://github.com/agentmindcloud/awesome-grok-agents/releases/tag/v1.0.0
 [0.1.0]: https://github.com/agentmindcloud/awesome-grok-agents/releases/tag/v0.1.0
-[Unreleased]: https://github.com/agentmindcloud/awesome-grok-agents/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/agentmindcloud/awesome-grok-agents/compare/v1.0.0...HEAD
