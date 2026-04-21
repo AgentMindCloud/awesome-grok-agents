@@ -1,7 +1,8 @@
 agents:
-  - id: greeter
-    model: grok-4
-    prompt_ref: greeter_system
+  greeter:
+    prompt_key: greeter
     tools:
       - now
-    max_turns: 4
+      - generate_image
+      - post_to_x_with_image
+    requires_approval: false   # set to true if you want manual approval before posting
