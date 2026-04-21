@@ -12,7 +12,7 @@ jobs:
     outputs:
       templates: ${{ steps.list.outputs.templates }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - id: list
         run: |
           templates=$(ls -d templates/*/ | sed 's|/$||' | jq -R -s -c 'split("\n") | map(select(length>0))')
@@ -21,14 +21,14 @@ jobs:
   yamllint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - run: pipx install yamllint
       - run: yamllint -c .yamllint.yml templates/ featured-agents.json .github/
 
   registry:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -39,7 +39,7 @@ jobs:
   schema:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
@@ -57,7 +57,7 @@ jobs:
   spec-version:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Enforce grok-install spec version (v2.12 / v2.13 / v2.14)
         run: |
           fail=0
@@ -78,7 +78,7 @@ jobs:
   links:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Lychee link check on template READMEs
         uses: lycheeverse/lychee-action@v1
         with:
@@ -97,7 +97,7 @@ jobs:
       matrix:
         template: ${{ fromJson(needs.discover.outputs.templates) }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
