@@ -36,8 +36,61 @@ jobs:
       - name: Validate featured-agents.json
         run: python scripts/validate_registry.py
 
+  schema:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install ajv-cli
+        run: npm install -g ajv-cli@5 ajv-formats@3
+      - name: Validate featured-agents.json against schema
+        run: |
+          ajv validate \
+            -s schemas/featured-agents.schema.json \
+            -d featured-agents.json \
+            --spec=draft2020 \
+            -c ajv-formats \
+            --strict=false
+
+  spec-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Enforce grok-install spec version (v2.12 / v2.13 / v2.14)
+        run: |
+          fail=0
+          for f in templates/*/grok-install.yaml; do
+            spec=$(grep -E '^spec:' "$f" | head -n1 | sed -E 's/^spec:[[:space:]]*//' | tr -d '"'"'")
+            case "$spec" in
+              grok-install/v2.12|grok-install/v2.13|grok-install/v2.14)
+                echo "OK   $f -> $spec"
+                ;;
+              *)
+                echo "FAIL $f has unsupported spec: $spec" >&2
+                fail=1
+                ;;
+            esac
+          done
+          exit "$fail"
+
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lychee link check on template READMEs
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: >-
+            --no-progress
+            --max-concurrency 4
+            --accept 200,204,206,403,429
+            'templates/**/README.md'
+          fail: true
+
   validate:
-    needs: [discover, yamllint, registry]
+    needs: [discover, yamllint, registry, schema, spec-version]
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
