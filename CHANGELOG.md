@@ -7,6 +7,12 @@ Versions follow [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+> **Note:** the `1.0.0` and `0.1.0` entries below describe the work that
+> shipped to `main` on the dates noted. Git tags and GitHub Releases for
+> these versions have not yet been pushed; once they are, the
+> [`release.yml`](.github/workflows/release.yml) workflow will publish
+> them automatically from this CHANGELOG.
+
 ## [1.0.0] — 2026-04-21
 
 ### 10 certified templates milestone
@@ -82,6 +88,6 @@ All 10 templates are **Grok-Native Certified** (see README for criteria).
 - Contributor tooling: PR template, issue templates, `CONTRIBUTING.md`,
   `docs/submitting-your-own.md`, `docs/template-anatomy.md`.
 
-[1.0.0]: https://github.com/agentmindcloud/awesome-grok-agents/releases/tag/v1.0.0
-[0.1.0]: https://github.com/agentmindcloud/awesome-grok-agents/releases/tag/v0.1.0
-[Unreleased]: https://github.com/agentmindcloud/awesome-grok-agents/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/agentmindcloud/awesome-grok-agents/tree/main
+[0.1.0]: https://github.com/agentmindcloud/awesome-grok-agents/commits/main
+[Unreleased]: https://github.com/agentmindcloud/awesome-grok-agents/commits/main
