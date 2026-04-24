@@ -33,9 +33,12 @@
 ## ✦ One-Line Install
 
 ```bash
-pip install grok-install
+pip install git+https://github.com/agentmindcloud/grok-install
 grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/<name>
 ```
+
+> A PyPI release of `grok-install` is in progress; until then, install
+> directly from the sibling repo as shown above.
 
 ## ✦ Why This Exists
 
@@ -169,7 +172,7 @@ grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/<na
 ## ✦ Quick Start
 
 ```bash
-pip install grok-install
+pip install git+https://github.com/agentmindcloud/grok-install
 
 # Install any template
 grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/hello-grok
