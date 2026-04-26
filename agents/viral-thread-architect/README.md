@@ -2,6 +2,7 @@
 title: viral-thread-architect
 description: Multi-agent swarm that turns a rough idea into a viral X thread.
 image: /docs/posters/viral-thread-architect.png
+permalink: /agents/viral-thread-architect/
 ---
 
 <div align="center">

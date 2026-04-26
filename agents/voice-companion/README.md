@@ -2,6 +2,7 @@
 title: voice-companion
 description: Voice-first Grok companion: speak, transcribe, reply, publish.
 image: /docs/posters/voice-companion.png
+permalink: /agents/voice-companion/
 ---
 
 <div align="center">

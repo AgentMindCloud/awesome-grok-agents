@@ -2,6 +2,7 @@
 title: live-event-commentator
 description: Real-time event commentary on X with strict rate limits and a kill switch.
 image: /docs/posters/live-event-commentator.png
+permalink: /templates/live-event-commentator/
 ---
 
 # live-event-commentator

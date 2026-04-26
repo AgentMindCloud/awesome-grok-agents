@@ -2,6 +2,7 @@
 title: code-reviewer
 description: Reviews GitHub PRs with Grok reasoning. Posts inline comments behind an approval gate.
 image: /docs/posters/code-reviewer.png
+permalink: /templates/code-reviewer/
 ---
 
 # code-reviewer
