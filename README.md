@@ -81,12 +81,14 @@ grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/<na
 <table>
   <tr>
     <td width="50%">
+      <a href="templates/hello-grok"><img src="docs/posters/hello-grok.svg" alt="hello-grok" width="100%"></a>
       <h3>👋 hello-grok</h3>
       <p><b>Pattern:</b> single-agent · <b>Safety:</b> standard</p>
       <p>The simplest possible Grok agent. Start here.</p>
       <a href="templates/hello-grok">Template →</a>
     </td>
     <td width="50%">
+      <a href="templates/reply-engagement-bot"><img src="docs/posters/reply-engagement-bot.svg" alt="reply-engagement-bot" width="100%"></a>
       <h3>💬 reply-engagement-bot</h3>
       <p><b>Pattern:</b> multi-step · <b>Safety:</b> strict</p>
       <p>Drafts replies to X mentions behind an approval gate.</p>
@@ -95,12 +97,14 @@ grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/<na
   </tr>
   <tr>
     <td>
+      <a href="templates/trend-to-thread"><img src="docs/posters/trend-to-thread.svg" alt="trend-to-thread" width="100%"></a>
       <h3>🧵 trend-to-thread</h3>
       <p><b>Pattern:</b> multi-step · <b>Safety:</b> strict</p>
       <p>Monitors X trends, drafts a full thread from breakout signals.</p>
       <a href="templates/trend-to-thread">Template →</a>
     </td>
     <td>
+      <a href="templates/research-swarm"><img src="docs/posters/research-swarm.svg" alt="research-swarm" width="100%"></a>
       <h3>🔬 research-swarm</h3>
       <p><b>Pattern:</b> swarm · <b>Safety:</b> standard</p>
       <p>Researcher + critic + publisher working in parallel.</p>
@@ -109,12 +113,14 @@ grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/<na
   </tr>
   <tr>
     <td>
+      <a href="templates/code-reviewer"><img src="docs/posters/code-reviewer.svg" alt="code-reviewer" width="100%"></a>
       <h3>🧑‍💻 code-reviewer</h3>
       <p><b>Pattern:</b> multi-step · <b>Safety:</b> strict</p>
       <p>Reviews GitHub PRs with inline comments and diff awareness.</p>
       <a href="templates/code-reviewer">Template →</a>
     </td>
     <td>
+      <a href="templates/thread-ghostwriter"><img src="docs/posters/thread-ghostwriter.svg" alt="thread-ghostwriter" width="100%"></a>
       <h3>✍️ thread-ghostwriter</h3>
       <p><b>Pattern:</b> multi-step · <b>Safety:</b> strict</p>
       <p>Turns a rough idea into a polished X thread you can post or edit.</p>
@@ -123,12 +129,14 @@ grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/<na
   </tr>
   <tr>
     <td>
+      <a href="templates/personal-knowledge"><img src="docs/posters/personal-knowledge.svg" alt="personal-knowledge" width="100%"></a>
       <h3>🧠 personal-knowledge</h3>
       <p><b>Pattern:</b> multi-step · <b>Safety:</b> standard</p>
       <p>Persistent, searchable memory of your X history.</p>
       <a href="templates/personal-knowledge">Template →</a>
     </td>
     <td>
+      <a href="templates/scientific-discovery"><img src="docs/posters/scientific-discovery.svg" alt="scientific-discovery" width="100%"></a>
       <h3>🔭 scientific-discovery</h3>
       <p><b>Pattern:</b> swarm · <b>Safety:</b> standard</p>
       <p>Daily arXiv and X discussion brief on topics you follow.</p>
@@ -137,12 +145,14 @@ grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/<na
   </tr>
   <tr>
     <td>
+      <a href="templates/voice-agent-x"><img src="docs/posters/voice-agent-x.svg" alt="voice-agent-x" width="100%"></a>
       <h3>🎤 voice-agent-x</h3>
       <p><b>Pattern:</b> multi-step · <b>Safety:</b> strict</p>
       <p>Speak a post, review the transcript, approve, publish.</p>
       <a href="templates/voice-agent-x">Template →</a>
     </td>
     <td>
+      <a href="templates/live-event-commentator"><img src="docs/posters/live-event-commentator.svg" alt="live-event-commentator" width="100%"></a>
       <h3>📡 live-event-commentator</h3>
       <p><b>Pattern:</b> multi-step · <b>Safety:</b> strict</p>
       <p>Real-time event commentary on X with rate-limited posting.</p>
