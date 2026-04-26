@@ -2,6 +2,7 @@
 title: trend-to-thread
 description: Monitors X trends and drafts a full thread on topics that match your profile.
 image: /docs/posters/trend-to-thread.png
+permalink: /templates/trend-to-thread/
 ---
 
 # trend-to-thread

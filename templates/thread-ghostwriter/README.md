@@ -2,6 +2,7 @@
 title: thread-ghostwriter
 description: Turns a rough idea into a polished, tone-matched X thread ready for approval.
 image: /docs/posters/thread-ghostwriter.png
+permalink: /templates/thread-ghostwriter/
 ---
 
 # thread-ghostwriter

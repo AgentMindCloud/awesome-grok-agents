@@ -2,6 +2,7 @@
 title: voice-agent-x
 description: Speak a post, review the transcript, approve, publish. Voice-first X workflow with safety gates.
 image: /docs/posters/voice-agent-x.png
+permalink: /templates/voice-agent-x/
 ---
 
 # voice-agent-x
