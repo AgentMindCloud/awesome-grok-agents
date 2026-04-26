@@ -1,3 +1,9 @@
+---
+title: trend-to-thread
+description: Monitors X trends and drafts a full thread on topics that match your profile.
+image: /docs/posters/trend-to-thread.png
+---
+
 # trend-to-thread
 
 Watches X trends inside a topic allowlist, scores each one, and drafts a

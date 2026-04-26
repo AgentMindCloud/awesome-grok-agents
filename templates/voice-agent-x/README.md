@@ -1,3 +1,9 @@
+---
+title: voice-agent-x
+description: Speak a post, review the transcript, approve, publish. Voice-first X workflow with safety gates.
+image: /docs/posters/voice-agent-x.png
+---
+
 # voice-agent-x
 
 Speak a thought. See it transcribed and polished into a clean X post.

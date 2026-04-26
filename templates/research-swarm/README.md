@@ -1,3 +1,9 @@
+---
+title: research-swarm
+description: Three-agent swarm: researcher gathers sources, critic challenges them, publisher produces the final brief.
+image: /docs/posters/research-swarm.png
+---
+
 # research-swarm
 
 A three-agent swarm that answers hard questions. The researcher gathers

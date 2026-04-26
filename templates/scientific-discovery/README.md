@@ -1,3 +1,9 @@
+---
+title: scientific-discovery
+description: Watches arXiv + the X discussion. Produces a daily brief of what's new and what researchers are saying.
+image: /docs/posters/scientific-discovery.png
+---
+
 # scientific-discovery
 
 Daily brief of the newest arXiv papers in your areas of interest, paired

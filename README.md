@@ -84,13 +84,13 @@ grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/<na
       <h3>👋 hello-grok</h3>
       <p><b>Pattern:</b> single-agent · <b>Safety:</b> standard</p>
       <p>The simplest possible Grok agent. Start here.</p>
-      <a href="https://github.com/AgentMindCloud/awesome-grok-agents/templates/hello-grok">Template →</a>
+      <a href="https://agentmindcloud.github.io/awesome-grok-agents/templates/hello-grok/">Template →</a>
     </td>
     <td width="50%">
       <h3>💬 reply-engagement-bot</h3>
       <p><b>Pattern:</b> multi-step · <b>Safety:</b> strict</p>
       <p>Drafts replies to X mentions behind an approval gate.</p>
-      <a href="https://github.com/AgentMindCloud/awesome-grok-agents/templates/reply-engagement-bot">Template →</a>
+      <a href="https://agentmindcloud.github.io/awesome-grok-agents/templates/reply-engagement-bot/">Template →</a>
     </td>
   </tr>
   <tr>
@@ -98,13 +98,13 @@ grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/<na
       <h3>🧵 trend-to-thread</h3>
       <p><b>Pattern:</b> multi-step · <b>Safety:</b> strict</p>
       <p>Monitors X trends, drafts a full thread from breakout signals.</p>
-      <a href="https://github.com/AgentMindCloud/awesome-grok-agents/templates/trend-to-thread">Template →</a>
+      <a href="https://agentmindcloud.github.io/awesome-grok-agents/templates/trend-to-thread/">Template →</a>
     </td>
     <td>
       <h3>🔬 research-swarm</h3>
       <p><b>Pattern:</b> swarm · <b>Safety:</b> standard</p>
       <p>Researcher + critic + publisher working in parallel.</p>
-      <a href="https://github.com/AgentMindCloud/awesome-grok-agents/templates/research-swarm">Template →</a>
+      <a href="https://agentmindcloud.github.io/awesome-grok-agents/templates/research-swarm/">Template →</a>
     </td>
   </tr>
   <tr>
@@ -112,13 +112,13 @@ grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/<na
       <h3>🧑‍💻 code-reviewer</h3>
       <p><b>Pattern:</b> multi-step · <b>Safety:</b> strict</p>
       <p>Reviews GitHub PRs with inline comments and diff awareness.</p>
-      <a href="https://github.com/AgentMindCloud/awesome-grok-agents/templates/code-reviewer">Template →</a>
+      <a href="https://agentmindcloud.github.io/awesome-grok-agents/templates/code-reviewer/">Template →</a>
     </td>
     <td>
       <h3>✍️ thread-ghostwriter</h3>
       <p><b>Pattern:</b> multi-step · <b>Safety:</b> strict</p>
       <p>Turns a rough idea into a polished X thread you can post or edit.</p>
-      <a href="https://github.com/AgentMindCloud/awesome-grok-agents/templates/thread-ghostwriter">Template →</a>
+      <a href="https://agentmindcloud.github.io/awesome-grok-agents/templates/thread-ghostwriter/">Template →</a>
     </td>
   </tr>
   <tr>
@@ -126,13 +126,13 @@ grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/<na
       <h3>🧠 personal-knowledge</h3>
       <p><b>Pattern:</b> multi-step · <b>Safety:</b> standard</p>
       <p>Persistent, searchable memory of your X history.</p>
-      <a href="https://github.com/AgentMindCloud/awesome-grok-agents/templates/personal-knowledge">Template →</a>
+      <a href="https://agentmindcloud.github.io/awesome-grok-agents/templates/personal-knowledge/">Template →</a>
     </td>
     <td>
       <h3>🔭 scientific-discovery</h3>
       <p><b>Pattern:</b> swarm · <b>Safety:</b> standard</p>
       <p>Daily arXiv and X discussion brief on topics you follow.</p>
-      <a href="https://github.com/AgentMindCloud/awesome-grok-agents/templates/scientific-discovery">Template →</a>
+      <a href="https://agentmindcloud.github.io/awesome-grok-agents/templates/scientific-discovery/">Template →</a>
     </td>
   </tr>
   <tr>
@@ -140,13 +140,13 @@ grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/<na
       <h3>🎤 voice-agent-x</h3>
       <p><b>Pattern:</b> multi-step · <b>Safety:</b> strict</p>
       <p>Speak a post, review the transcript, approve, publish.</p>
-      <a href="https://github.com/AgentMindCloud/awesome-grok-agents/templates/voice-agent-x">Template →</a>
+      <a href="https://agentmindcloud.github.io/awesome-grok-agents/templates/voice-agent-x/">Template →</a>
     </td>
     <td>
       <h3>📡 live-event-commentator</h3>
       <p><b>Pattern:</b> multi-step · <b>Safety:</b> strict</p>
       <p>Real-time event commentary on X with rate-limited posting.</p>
-      <a href="https://github.com/AgentMindCloud/awesome-grok-agents/templates/live-event-commentator">Template →</a>
+      <a href="https://agentmindcloud.github.io/awesome-grok-agents/templates/live-event-commentator/">Template →</a>
     </td>
   </tr>
 </table>
@@ -156,16 +156,16 @@ grok-install install github.com/agentmindcloud/awesome-grok-agents/templates/<na
 
 | # | Name | Pattern | Safety | What it does |
 |---|------|---------|--------|--------------|
-| 1 | [hello-grok](https://github.com/AgentMindCloud/awesome-grok-agents/templates/hello-grok) | single-agent | standard | The simplest possible Grok agent. |
-| 2 | [reply-engagement-bot](https://github.com/AgentMindCloud/awesome-grok-agents/templates/reply-engagement-bot) | multi-step | strict | Drafts replies to X mentions behind an approval gate. |
-| 3 | [trend-to-thread](https://github.com/AgentMindCloud/awesome-grok-agents/templates/trend-to-thread) | multi-step | strict | Monitors X trends, drafts a full thread. |
-| 4 | [research-swarm](https://github.com/AgentMindCloud/awesome-grok-agents/templates/research-swarm) | swarm | standard | Researcher + critic + publisher. |
-| 5 | [code-reviewer](https://github.com/AgentMindCloud/awesome-grok-agents/templates/code-reviewer) | multi-step | strict | Reviews GitHub PRs with inline comments. |
-| 6 | [thread-ghostwriter](https://github.com/AgentMindCloud/awesome-grok-agents/templates/thread-ghostwriter) | multi-step | strict | Turns a rough idea into a polished X thread. |
-| 7 | [personal-knowledge](https://github.com/AgentMindCloud/awesome-grok-agents/templates/personal-knowledge) | multi-step | standard | Persistent, searchable memory of your X history. |
-| 8 | [scientific-discovery](https://github.com/AgentMindCloud/awesome-grok-agents/templates/scientific-discovery) | swarm | standard | Daily arXiv + X discussion brief. |
-| 9 | [voice-agent-x](https://github.com/AgentMindCloud/awesome-grok-agents/templates/voice-agent-x) | multi-step | strict | Speak a post, review, approve, publish. |
-| 10 | [live-event-commentator](https://github.com/AgentMindCloud/awesome-grok-agents/templates/live-event-commentator) | multi-step | strict | Real-time event commentary on X. |
+| 1 | [hello-grok](https://agentmindcloud.github.io/awesome-grok-agents/templates/hello-grok/) | single-agent | standard | The simplest possible Grok agent. |
+| 2 | [reply-engagement-bot](https://agentmindcloud.github.io/awesome-grok-agents/templates/reply-engagement-bot/) | multi-step | strict | Drafts replies to X mentions behind an approval gate. |
+| 3 | [trend-to-thread](https://agentmindcloud.github.io/awesome-grok-agents/templates/trend-to-thread/) | multi-step | strict | Monitors X trends, drafts a full thread. |
+| 4 | [research-swarm](https://agentmindcloud.github.io/awesome-grok-agents/templates/research-swarm/) | swarm | standard | Researcher + critic + publisher. |
+| 5 | [code-reviewer](https://agentmindcloud.github.io/awesome-grok-agents/templates/code-reviewer/) | multi-step | strict | Reviews GitHub PRs with inline comments. |
+| 6 | [thread-ghostwriter](https://agentmindcloud.github.io/awesome-grok-agents/templates/thread-ghostwriter/) | multi-step | strict | Turns a rough idea into a polished X thread. |
+| 7 | [personal-knowledge](https://agentmindcloud.github.io/awesome-grok-agents/templates/personal-knowledge/) | multi-step | standard | Persistent, searchable memory of your X history. |
+| 8 | [scientific-discovery](https://agentmindcloud.github.io/awesome-grok-agents/templates/scientific-discovery/) | swarm | standard | Daily arXiv + X discussion brief. |
+| 9 | [voice-agent-x](https://agentmindcloud.github.io/awesome-grok-agents/templates/voice-agent-x/) | multi-step | strict | Speak a post, review, approve, publish. |
+| 10 | [live-event-commentator](https://agentmindcloud.github.io/awesome-grok-agents/templates/live-event-commentator/) | multi-step | strict | Real-time event commentary on X. |
 
 </details>
 
