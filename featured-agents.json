@@ -16,7 +16,7 @@
       "has_visuals": true,
       "accent_color": "#7c5cff",
       "poster": "docs/posters/hello-grok.svg",
-      "url": "https://github.com/AgentMindCloud/awesome-grok-agents/tree/main/templates/hello-grok"
+      "url": "https://github.com/AgentMindCloud/awesome-grok-agents/templates/hello-grok"
     },
     {
       "name": "reply-engagement-bot",
@@ -32,7 +32,7 @@
       "certified": true,
       "has_visuals": false,
       "poster": "docs/posters/reply-engagement-bot.svg",
-      "url": "https://github.com/AgentMindCloud/awesome-grok-agents/tree/main/templates/reply-engagement-bot"
+      "url": "https://github.com/AgentMindCloud/awesome-grok-agents/templates/reply-engagement-bot"
     },
     {
       "name": "trend-to-thread",
@@ -49,7 +49,7 @@
       "has_visuals": true,
       "accent_color": "#22d3ee",
       "poster": "docs/posters/trend-to-thread.svg",
-      "url": "https://github.com/AgentMindCloud/awesome-grok-agents/tree/main/templates/trend-to-thread"
+      "url": "https://github.com/AgentMindCloud/awesome-grok-agents/templates/trend-to-thread"
     },
     {
       "name": "research-swarm",
@@ -65,7 +65,7 @@
       "certified": true,
       "has_visuals": false,
       "poster": "docs/posters/research-swarm.svg",
-      "url": "https://github.com/AgentMindCloud/awesome-grok-agents/tree/main/templates/research-swarm"
+      "url": "https://github.com/AgentMindCloud/awesome-grok-agents/templates/research-swarm"
     },
     {
       "name": "code-reviewer",
@@ -82,7 +82,7 @@
       "has_visuals": true,
       "accent_color": "#22c55e",
       "poster": "docs/posters/code-reviewer.svg",
-      "url": "https://github.com/AgentMindCloud/awesome-grok-agents/tree/main/templates/code-reviewer"
+      "url": "https://github.com/AgentMindCloud/awesome-grok-agents/templates/code-reviewer"
     },
     {
       "name": "thread-ghostwriter",
@@ -99,7 +99,7 @@
       "has_visuals": true,
       "accent_color": "#a78bfa",
       "poster": "docs/posters/thread-ghostwriter.svg",
-      "url": "https://github.com/AgentMindCloud/awesome-grok-agents/tree/main/templates/thread-ghostwriter"
+      "url": "https://github.com/AgentMindCloud/awesome-grok-agents/templates/thread-ghostwriter"
     },
     {
       "name": "personal-knowledge",
@@ -115,7 +115,7 @@
       "certified": true,
       "has_visuals": false,
       "poster": "docs/posters/personal-knowledge.svg",
-      "url": "https://github.com/AgentMindCloud/awesome-grok-agents/tree/main/templates/personal-knowledge"
+      "url": "https://github.com/AgentMindCloud/awesome-grok-agents/templates/personal-knowledge"
     },
     {
       "name": "scientific-discovery",
@@ -131,7 +131,7 @@
       "certified": true,
       "has_visuals": false,
       "poster": "docs/posters/scientific-discovery.svg",
-      "url": "https://github.com/AgentMindCloud/awesome-grok-agents/tree/main/templates/scientific-discovery"
+      "url": "https://github.com/AgentMindCloud/awesome-grok-agents/templates/scientific-discovery"
     },
     {
       "name": "voice-agent-x",
@@ -149,7 +149,7 @@
       "has_visuals": true,
       "accent_color": "#f472b6",
       "poster": "docs/posters/voice-agent-x.svg",
-      "url": "https://github.com/AgentMindCloud/awesome-grok-agents/tree/main/templates/voice-agent-x"
+      "url": "https://github.com/AgentMindCloud/awesome-grok-agents/templates/voice-agent-x"
     },
     {
       "name": "live-event-commentator",
@@ -166,7 +166,7 @@
       "certified": true,
       "has_visuals": false,
       "poster": "docs/posters/live-event-commentator.svg",
-      "url": "https://github.com/AgentMindCloud/awesome-grok-agents/tree/main/templates/live-event-commentator"
+      "url": "https://github.com/AgentMindCloud/awesome-grok-agents/templates/live-event-commentator"
     }
   ]
 }
