@@ -1,3 +1,9 @@
+---
+title: hello-grok
+description: The simplest possible Grok agent. Single agent, single tool, under 20 lines of YAML.
+image: /docs/posters/hello-grok.png
+---
+
 # hello-grok
 
 The simplest possible Grok agent. One agent, one tool, under 20 lines of

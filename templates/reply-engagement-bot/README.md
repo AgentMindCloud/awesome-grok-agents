@@ -1,3 +1,9 @@
+---
+title: reply-engagement-bot
+description: Watches your X mentions and drafts thoughtful, on-brand replies behind an approval gate.
+image: /docs/posters/reply-engagement-bot.png
+---
+
 # reply-engagement-bot
 
 Watches your X mentions, classifies which are worth replying to, drafts a

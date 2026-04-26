@@ -1,3 +1,9 @@
+---
+title: thread-ghostwriter
+description: Turns a rough idea into a polished, tone-matched X thread ready for approval.
+image: /docs/posters/thread-ghostwriter.png
+---
+
 # thread-ghostwriter
 
 You give it a rough idea. It reads your recent X posts, learns your voice,

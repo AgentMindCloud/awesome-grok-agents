@@ -1,3 +1,9 @@
+---
+title: live-event-commentator
+description: Real-time event commentary on X with strict rate limits and a kill switch.
+image: /docs/posters/live-event-commentator.png
+---
+
 # live-event-commentator
 
 Covers a live event on X in real time — without the usual "engagement bot"

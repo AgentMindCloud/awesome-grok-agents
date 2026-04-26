@@ -1,3 +1,9 @@
+---
+title: code-reviewer
+description: Reviews GitHub PRs with Grok reasoning. Posts inline comments behind an approval gate.
+image: /docs/posters/code-reviewer.png
+---
+
 # code-reviewer
 
 Reads a GitHub PR, reviews it like a senior engineer, and posts inline

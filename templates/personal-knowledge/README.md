@@ -1,3 +1,9 @@
+---
+title: personal-knowledge
+description: Builds a persistent, searchable memory of your X history. Ask questions about what you've posted, liked, or been mentioned in.
+image: /docs/posters/personal-knowledge.png
+---
+
 # personal-knowledge
 
 A persistent, searchable memory of your X history. Ask questions about

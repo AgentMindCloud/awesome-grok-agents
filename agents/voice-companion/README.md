@@ -1,3 +1,9 @@
+---
+title: voice-companion
+description: Voice-first Grok companion: speak, transcribe, reply, publish.
+image: /docs/posters/voice-companion.png
+---
+
 <div align="center">
 
 # Voice Companion
